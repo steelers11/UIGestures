@@ -13,6 +13,12 @@
 		4C7D10EA1AA2867000A2F354 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D10E91AA2867000A2F354 /* Images.xcassets */; };
 		4C7D10ED1AA2867000A2F354 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D10EB1AA2867000A2F354 /* LaunchScreen.xib */; };
 		4C7D10F91AA2867000A2F354 /* MonkeyPinchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7D10F81AA2867000A2F354 /* MonkeyPinchTests.swift */; };
+		4C7D11091AA2874400A2F354 /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D11031AA2874400A2F354 /* banana.png */; };
+		4C7D110A1AA2874400A2F354 /* banana@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D11041AA2874400A2F354 /* banana@2x.png */; };
+		4C7D110B1AA2874400A2F354 /* chomp.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D11051AA2874400A2F354 /* chomp.caf */; };
+		4C7D110C1AA2874400A2F354 /* hehehe1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D11061AA2874400A2F354 /* hehehe1.caf */; };
+		4C7D110D1AA2874400A2F354 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D11071AA2874400A2F354 /* monkey.png */; };
+		4C7D110E1AA2874400A2F354 /* monkey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7D11081AA2874400A2F354 /* monkey@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		4C7D10F21AA2867000A2F354 /* MonkeyPinchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonkeyPinchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7D10F71AA2867000A2F354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C7D10F81AA2867000A2F354 /* MonkeyPinchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyPinchTests.swift; sourceTree = "<group>"; };
+		4C7D11031AA2874400A2F354 /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		4C7D11041AA2874400A2F354 /* banana@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banana@2x.png"; sourceTree = "<group>"; };
+		4C7D11051AA2874400A2F354 /* chomp.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chomp.caf; sourceTree = "<group>"; };
+		4C7D11061AA2874400A2F354 /* hehehe1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hehehe1.caf; sourceTree = "<group>"; };
+		4C7D11071AA2874400A2F354 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		4C7D11081AA2874400A2F354 /* monkey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monkey@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 				4C7D10E61AA2867000A2F354 /* Main.storyboard */,
 				4C7D10E91AA2867000A2F354 /* Images.xcassets */,
 				4C7D10EB1AA2867000A2F354 /* LaunchScreen.xib */,
+				4C7D11021AA2874400A2F354 /* MonkeyPinchResources */,
 				4C7D10E01AA2867000A2F354 /* Supporting Files */,
 			);
 			path = MonkeyPinch;
@@ -110,6 +123,19 @@
 				4C7D10F71AA2867000A2F354 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C7D11021AA2874400A2F354 /* MonkeyPinchResources */ = {
+			isa = PBXGroup;
+			children = (
+				4C7D11041AA2874400A2F354 /* banana@2x.png */,
+				4C7D11031AA2874400A2F354 /* banana.png */,
+				4C7D11051AA2874400A2F354 /* chomp.caf */,
+				4C7D11061AA2874400A2F354 /* hehehe1.caf */,
+				4C7D11071AA2874400A2F354 /* monkey.png */,
+				4C7D11081AA2874400A2F354 /* monkey@2x.png */,
+			);
+			path = MonkeyPinchResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +218,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7D110D1AA2874400A2F354 /* monkey.png in Resources */,
+				4C7D110B1AA2874400A2F354 /* chomp.caf in Resources */,
 				4C7D10E81AA2867000A2F354 /* Main.storyboard in Resources */,
 				4C7D10ED1AA2867000A2F354 /* LaunchScreen.xib in Resources */,
+				4C7D110E1AA2874400A2F354 /* monkey@2x.png in Resources */,
+				4C7D110A1AA2874400A2F354 /* banana@2x.png in Resources */,
+				4C7D11091AA2874400A2F354 /* banana.png in Resources */,
 				4C7D10EA1AA2867000A2F354 /* Images.xcassets in Resources */,
+				4C7D110C1AA2874400A2F354 /* hehehe1.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
